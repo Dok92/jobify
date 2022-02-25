@@ -4,7 +4,7 @@ import Wrapper from '../assets/wrappers/SearchContainer'
 
 const SearchContainer = () => {
   const {
-    isLoading,
+    // isLoading,
     search,
     searchStatus,
     searchType,
@@ -16,7 +16,7 @@ const SearchContainer = () => {
     statusOptions,
   } = useAppContext()
   const handleSearch = (e) => {
-    if (isLoading) return
+    // if (isLoading) return
     handleChange({ name: e.target.name, value: e.target.value })
   }
   const handleSubmit = (e) => {
@@ -61,7 +61,7 @@ const SearchContainer = () => {
           />
           <button
             className='btn btn-block btn-danger'
-            disabled={isLoading}
+            // disabled={isLoading}
             onClick={handleSubmit}
           >
             clear filters

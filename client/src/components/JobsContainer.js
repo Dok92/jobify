@@ -1,6 +1,6 @@
 import { useAppContext } from '../context/appContext'
 import { useEffect } from 'react'
-import Loading from './Loading'
+// import Loading from './Loading'
 import Job from './Job'
 import Wrapper from '../assets/wrappers/JobsContainer'
 import PageBtnContainer from './PageBtnContainer'
@@ -9,7 +9,7 @@ const JobsContainer = () => {
  const {
     getJobs,
     jobs,
-    isLoading,
+    // isLoading,
     page,
     totalJobs,
     search,
@@ -22,9 +22,9 @@ const JobsContainer = () => {
     getJobs()
     // eslint-disable-next-line
   }, [page, search, searchStatus, searchType, sort])
-  if (isLoading) {
-    return <Loading center />
-  }
+  // if (isLoading) {
+  //   return <Loading center />
+  // }
 
   if (jobs.length === 0) {
     return (

@@ -245,13 +245,12 @@ const reducer = (state, action) => {
   }
 
   if (action.type === GET_JOBS_BEGIN) {
-    return { ...state, isLoading: true, showAlert: false }
+    return { ...state, showAlert: false }
   }
   
   if (action.type === GET_JOBS_SUCCESS) {
     return {
       ...state,
-      isLoading: false,
       jobs: action.payload.jobs,
       totalJobs: action.payload.totalJobs,
       numOfPages: action.payload.numOfPages,
