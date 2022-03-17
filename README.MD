@@ -2,11 +2,10 @@
 
 #### Track Your Job Search
 
-Project in Action - [Jobify](https://www.jobify.live/)
-
-#### Support
-
-Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+Project in Action - [Jobify](https://jobify-mern-johnsmilga.herokuapp.com/)
+For full experience use credentials:
+- Email:     dok@gmail.com
+- Password:  123456
 
 #### Run The App Locally
 
