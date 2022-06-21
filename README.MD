@@ -7,6 +7,12 @@ For full experience use credentials:
 - Email:     dok@gmail.com
 - Password:  123456
 
+#### Source
+
+- Udemy [MERN Stack Course 2022](https://www.udemy.com/course/mern-stack-course-mongodb-express-react-and-nodejs/) by John Smilga, creator of popular youtube 
+chanel [Coding Addict](https://www.youtube.com/c/CodingAddict)
+---
+
 #### Run The App Locally
 
 ```sh
